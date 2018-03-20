@@ -14,12 +14,6 @@ subj_id = 1
 # print(html_text.format(subj_id))
 
 
-
-
-
-
-
-
 # We can use a for loop to print each line separately, and add the
 # format() method if the list entry has a format in it.  Does this
 # generalize well?
@@ -29,15 +23,6 @@ for line in html_text:
         print(line.format(subj_id))
     else:
         print(line)
-
-
-
-
-
-
-
-
-
 
 
 
